@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: ;
-}
-
 :root{
     --header-container: #ff6900;
     --sales-color: #ff0000;
@@ -60,7 +56,7 @@ body{
     gap: 1rem;
     img{
         max-height: 400px;
-        margin-top: 3rem;        
+        margin-top: 3rem;     
     }
 }
 
@@ -96,6 +92,21 @@ footer{
             text-decoration: none;
      
         }
+    }
+}
+
+.social{
+    text-align: center;
+    line-height: 2rem;
+    position: relative;
+    left: 1200px;
+    
+    p{
+        font-weight: bold;
+    }
+    .fa-brands{
+        color: black;
+        background-color: white;
     }
 }
 
@@ -147,4 +158,25 @@ h4{
     color: white;
     position: relative;
     bottom: 150px;
+}
+
+.first-image{
+    :hover{
+        background-image: url(../assets/img/1b.webp);
+    }
+}
+#second-pic{
+    
+}
+#third-pic{
+    
+}
+#fourth-pic{
+    
+}
+#fifth-pic{
+    
+}
+#sixth-pic{
+    
 }
