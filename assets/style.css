@@ -4,7 +4,46 @@
     box-sizing: border-box;
 }
 
-header{
+body{
+
+}
+
+:root{
+    --header-container: #ff6900;
+    --sales-color: #ff0000;
+    --sostenibility-color: #008000;
+
+}
+
+.container{
     display: flex;
     justify-content: space-around;
+    background-color: var(--header-container);
+    .logo{
+        img{
+            height: 25px;
+            margin: 1rem;
+        }
+        
+    }
+    
+}
+
+.actions{
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    align-items: center;
+    a{
+        text-decoration: none;
+        color: white;
+        vertical-align: middle;
+    }
 }
