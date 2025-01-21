@@ -75,10 +75,28 @@ body{
 }
 
 footer{
+    display: flex;
     margin-top: 2rem;
     background-color: var(--footer-color) ;
     height: 200px;
     color: white;
+}
+
+.boolean{
+    text-align: center;
+    line-height: 2rem;
+    
+    .footer-nav{
+        position: relative;
+        left: 126px;
+        gap: 1rem;
+        a{
+
+            color: white;
+            text-decoration: none;
+     
+        }
+    }
 }
 
 span{
@@ -101,4 +119,32 @@ h4{
     position: relative;
     bottom: 450px;
     left: 245px;
+}
+
+.sale{
+    background-color: var(--sales-color);
+    text-align: center;
+    width: 3rem;
+    color: white;
+    position: relative;
+    bottom: 150px;
+}
+
+#sostenibility{
+    background-color: var(--sostenibility-color);
+    width: 6rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 168px;
+    left: 55px;
+}
+
+#sostenibility-sixth{
+    background-color: var(--sostenibility-color);
+    width: 6rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 150px;
 }
