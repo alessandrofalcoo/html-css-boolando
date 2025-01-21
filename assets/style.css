@@ -58,6 +58,19 @@
         max-height: 400px;
         margin-top: 3rem;     
     }
+    .first-image{
+        :hover{
+            .first-pic{
+                position: absolute;
+                z-index: 1;
+            }
+            .first-pic-b{
+                position: absolute;
+                z-index: 2;
+            }
+        }
+        
+    }
 }
 
 .lower-images{
@@ -160,23 +173,18 @@ h4{
     bottom: 150px;
 }
 
-.first-image{
-    :hover{
-        background-image: url(../assets/img/1b.webp);
-    }
-}
-#second-pic{
+.second-pic{
     
 }
-#third-pic{
+.third-pic{
     
 }
-#fourth-pic{
+.fourth-pic{
     
 }
-#fifth-pic{
+.fifth-pic{
     
 }
-#sixth-pic{
+.sixth-pic{
     
 }
