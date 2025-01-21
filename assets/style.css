@@ -5,13 +5,16 @@
 }
 
 body{
-
+    font-family: ;
 }
 
 :root{
     --header-container: #ff6900;
     --sales-color: #ff0000;
     --sostenibility-color: #008000;
+    --footer-color: #1a1a1a;
+    --price-color: #ff1c3b;
+
 
 }
 
@@ -45,5 +48,57 @@ body{
         text-decoration: none;
         color: white;
         vertical-align: middle;
+        &:hover{
+            text-decoration: underline;
+        }
     }
+}
+
+.upper-images{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    img{
+        max-height: 400px;
+        margin-top: 3rem;        
+    }
+}
+
+.lower-images{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    img{
+        max-height: 400px;
+        margin-top: 3rem;        
+    }
+}
+
+footer{
+    margin-top: 2rem;
+    background-color: var(--footer-color) ;
+    height: 200px;
+    color: white;
+}
+
+span{
+    color: var(--price-color);
+}
+
+h4{
+    font-weight: bold ;
+}
+
+#entire-price{
+    color: black;
+    text-decoration-line: line-through ;
+}
+
+.fa-solid{
+    background-color: white;
+    height: 2rem;
+    padding: 0.5rem;;
+    position: relative;
+    bottom: 450px;
+    left: 245px;
 }
