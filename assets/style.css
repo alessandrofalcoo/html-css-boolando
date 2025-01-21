@@ -58,20 +58,21 @@
         max-height: 400px;
         margin-top: 3rem;     
     }
-    .first-image{
-        :hover{
-            .first-pic{
-                position: absolute;
-                z-index: 1;
-            }
-            .first-pic-b{
-                position: absolute;
-                z-index: 2;
-            }
+    .first-pic-b{
+        display: none;
+    }
+    .card:hover{
+        .first-pic{
+            display: none;
         }
-        
+        .first-pic-b{
+            display: inline-block;
+        }
     }
 }
+
+    
+
 
 .lower-images{
     display: flex;
@@ -80,6 +81,17 @@
     img{
         max-height: 400px;
         margin-top: 3rem;        
+    }
+    .first-pic-b{
+        display: none;
+    }
+    .card:hover{
+        .first-pic{
+            display: none;
+        }
+        .first-pic-b{
+            display: inline-block;
+        }
     }
 }
 
